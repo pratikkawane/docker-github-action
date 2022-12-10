@@ -14,4 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag pratikkawane/ppp
+      run: |
+       docker build ./docker-github-action/.github/workflows/Dockerfile  --tag pratikkawane/ppp
