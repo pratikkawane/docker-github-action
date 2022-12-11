@@ -15,5 +15,6 @@ jobs:
            docker build -t app  ./.github/workflows/
            docker tag app pratikkawane/private
            docker push pratikkawane/private
-
-  
+      - name: docker pulling  
+        run : |
+            docker pull  pratikkawane/private
