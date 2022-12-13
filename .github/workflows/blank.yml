@@ -13,7 +13,7 @@ jobs:
     build:
       runs-on: ubuntu-latest
       container:
-        image: pratikkawane/ppp
+        image: pratikkawane/private:latest
         credentials:
          username: ${{ secrets.DOCKER_USERNAME }}
          password: ${{ secrets.DOCKER_PASSWORD }}
