@@ -22,8 +22,9 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - uses: ./.github/pratik
+      
       - name: cat the pratik file
         run: |
+           cd ./.github/pratik
            ls
            cat pratik
