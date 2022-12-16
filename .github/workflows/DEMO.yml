@@ -11,8 +11,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
  deploy:
-   uses: pratikkawane/reusableworkflow/.github/workflows/reusable.yml@main
-   with:
-      config-path: .github/reusable.yml
+   uses: ./.github/workflows/reusable.yml
+ 
       
   
