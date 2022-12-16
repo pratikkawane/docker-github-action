@@ -12,4 +12,6 @@ on:
 jobs:
  deploy:
    uses: pratikkawane/reusableworkflow/.github/workflows/reusable.yml@main
+   with:
+      config-path: .github/reusable.yml
   
