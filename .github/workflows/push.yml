@@ -11,8 +11,8 @@ on:
        - main
 
      paths:
-      - ./.github/workflows/pratik-kawane
-      -  ./pratik-kawane
+      - ./.github/workflows/Pratik-kawane
+      -  ./Pratik-kawane
 
   
     
