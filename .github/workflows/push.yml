@@ -12,7 +12,7 @@ on:
 
      paths:
       
-      - 'Pratik-kawane'
+      - '.github/workflows/Pratik-kawane'
 
   
     
